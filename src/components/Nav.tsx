@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCart } from "@/cart/CartContext";
+import logo from "@/assets/logo.png";
 
 export default function Nav() {
   const { count, open } = useCart();
@@ -9,8 +10,8 @@ export default function Nav() {
       <div className="flex items-center justify-between px-6 h-14 md:h-16">
         <div className="flex-1 flex items-center"></div>
         <div className="flex-none">
-          <Link to="/" className="font-display text-xl md:text-2xl">
-            GodIsBig
+          <Link to="/" aria-label="GodIsBig — home" className="block">
+            <img src={logo} alt="GOD IS BIG" className="h-3.5 md:h-4 w-auto" />
           </Link>
         </div>
         <div className="flex-1 flex items-center justify-end gap-6">

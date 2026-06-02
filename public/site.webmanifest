@@ -1,0 +1,15 @@
+{
+  "name": "GodIsBig",
+  "short_name": "GodIsBig",
+  "description": "GodIsBig — Wearable Collective, Built on Faith.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#161616",
+  "theme_color": "#161616",
+  "icons": [
+    { "src": "/favicon-32.png", "type": "image/png", "sizes": "32x32" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" },
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/favicon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

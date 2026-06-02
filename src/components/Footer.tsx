@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SocialLinks from "@/components/SocialLinks";
 import { collections } from "@/data/catalog";
+import logo from "@/assets/logo.png";
 
 export default function Footer() {
   return (
@@ -66,8 +67,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-ink/5">
-          <div className="flex flex-col gap-1">
-            <div className="font-display text-3xl opacity-10">GodIsBig</div>
+          <div className="flex flex-col gap-2">
+            <img src={logo} alt="GOD IS BIG" className="h-4 w-auto opacity-15" />
             <div className="text-[10px] uppercase tracking-[0.2em] text-ink/40">
               Wearable Collective, Built on Faith
             </div>
