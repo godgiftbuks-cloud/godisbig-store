@@ -7,6 +7,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Home from "@/pages/Home";
 import Product from "@/pages/Product";
 import Collection from "@/pages/Collection";
+import Store from "@/pages/Store";
 import Cart from "@/pages/Cart";
 import Terms from "@/pages/Terms";
 import Privacy from "@/pages/Privacy";
@@ -33,6 +34,7 @@ export default function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/store" element={<Store />} />
             <Route path="/product/:slug" element={<Product />} />
             <Route path="/collection/:slug" element={<Collection />} />
             <Route path="/cart" element={<Cart />} />
